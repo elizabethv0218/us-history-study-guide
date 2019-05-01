@@ -10,19 +10,20 @@ footer {
     padding: 25px;
 }
 
-nav {
-    display: block;
-}
-
-/*h4 {*/
-/*    text-align: center;*/
+/*nav {*/
+/*    display: block;*/
 /*}*/
+
+h4 {
+    text-align: center;
+}
 
 @media(min-width:768px){ /*sm*/
     
 }
 
 @media(min-width:992px){ /*md*/
+    #ev-info p {margin-right: 20px}
 }
 
 @media(min-width:1200px){ /*lg*/
@@ -64,4 +65,18 @@ nav {
     .collapse.in{
         display:block !important;
     }
+}
+
+#contact p {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 97%;
+}
+
+#no-info p {
+    padding-right:20px;
+}
+
+#ev-info {
+    border-right: solid 1px #6e6e6e;
 }

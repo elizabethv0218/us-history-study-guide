@@ -10,31 +10,36 @@ footer {
     padding: 25px;
 }
 
-/*nav {*/
-/*    display: block;*/
-/*}*/
 
 h4 {
     text-align: center;
 }
 
-@media(min-width:768px){ /*sm*/
-    
+.jumbotron {
+    padding-right: 10px;
 }
 
-@media(min-width:992px){ /*md*/
-    #ev-info p {margin-right: 20px}
+@media(min-width:768px) {
+    /*sm*/
 }
 
-@media(min-width:1200px){ /*lg*/
-    
+@media(min-width:992px) {
+    /*md*/
+    #ev-info p {
+        margin-right: 20px
+    }
+}
+
+@media(min-width:1200px) {
+    /*lg*/
 }
 
 @media (max-width: 2000px) {
     .navbar-header {
         float: none;
     }
-    .navbar-left,.navbar-right {
+    .navbar-left,
+    .navbar-right {
         float: none !important;
     }
     .navbar-toggle {
@@ -42,7 +47,7 @@ h4 {
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
     .navbar-fixed-top {
         top: 0;
@@ -62,8 +67,8 @@ h4 {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .collapse.in{
-        display:block !important;
+    .collapse.in {
+        display: block !important;
     }
 }
 
@@ -74,7 +79,7 @@ h4 {
 }
 
 #no-info p {
-    padding-right:30px;
+    padding-right: 30px;
 }
 
 #ev-info {

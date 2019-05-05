@@ -41,6 +41,11 @@ h4 {
     font-family: Lato;
 }
 
+#contact h5 {
+    font-family: Merriweather;
+    text-align: center;
+}
+
 .jumbotron {
     padding-right: 10px;
 }

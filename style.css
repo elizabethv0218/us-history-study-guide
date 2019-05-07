@@ -27,6 +27,42 @@ footer {
     margin-bottom: 20px;
 }
 
+.tabInfo1 {
+    display: none;
+}
+
+.tabInfo2 {
+    display: none;
+}
+
+.tabInfo3 {
+    display: none;
+}
+
+.tabInfo4 {
+    display: none;
+}
+
+.tabInfo5 {
+    display: none;
+}
+
+.tabInfo6 {
+    display: none;
+}
+
+.tabInfo7 {
+    display: none;
+}
+
+.tabInfo8 {
+    display: none;
+}
+
+.tabInfo9 {
+    display: none;
+}
+
 h1 {
     font-family: Lato;
     text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px darkgrey;
@@ -34,11 +70,13 @@ h1 {
 
 h3 {
     font-family: Lato;
+    padding-top: 20px;
 }
 
 h4 {
     text-align: center;
     font-family: Lato;
+    padding: 10px;
 }
 
 #contact h5 {

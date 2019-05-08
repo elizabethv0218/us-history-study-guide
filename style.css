@@ -109,6 +109,7 @@ h4 {
     text-align: center;
     font-family: Lato;
     padding: 10px;
+    border-bottom: solid #B8D3D1 1px; 
 }
 
 #contact h5 {
@@ -118,6 +119,7 @@ h4 {
 
 .jumbotron {
     padding-right: 10px;
+    background-color: #ECE5E0;
 }
 
 ul {
@@ -130,20 +132,24 @@ p {
 
 @media(min-width:768px) {
     /*sm*/
-    h4 {font-size:23px;}
+    h1 {font-size:47px;}
+    h4 {font-size:22px;}
+    #landing p {font-size: 18px;}
 }
 
 @media(min-width:992px) {
     /*md*/
-    #ev-info p {
-        margin-right: 20px
-    }
-    h4 {font-size:28px;}
+    #ev-info p {margin-right: 20px}
+    h1 {font-size: 55px;}
+    h4 {font-size: 24px;}
+    #landing p {font-size: 22px;}
+    /*h4 {font-size:28px;}*/
 }
 
 @media(min-width:1200px) {
     /*lg*/
-    h4 {font-size:33px;}
+    h1 {font-size:62px;}
+    #landing p {font-size: 26px;}
 }
 
 @media (max-width: 2000px) {
@@ -196,4 +202,12 @@ p {
 
 #ev-info {
     border-right: solid 1px #6e6e6e;
+}
+
+body {
+    background-color: #F2EEEA
+}
+
+footer {
+    background-color: #ECE5E0;
 }
